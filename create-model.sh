@@ -30,7 +30,6 @@ somewhere_really_big="."
          -model_norm_thresh $model_norm_thresh \
          -model_min_step $model_min_step \
          -pad 5 \
-         -config_file fit.10-genmodel.conf \
          -fit_stages lin,1,3 \
          -output_model $model \
          -output_stdev $stdev \
